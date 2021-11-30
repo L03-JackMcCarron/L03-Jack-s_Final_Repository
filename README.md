@@ -60,7 +60,7 @@ Look at the midpoint rooted treefile
 
 Use the following command to print out the tree with Notung support
 
-      nw_display -s  ABC.genes.ufboot.MendozaRoot.treefile -w 1000 -b 'opacity:0' >  ABC.genes.ufboot.MendozaRoot.treefile.svg
+      nw_display -s  ABC.genes.tre -w 1000 -b 'opacity:0' >  ABC.genes.tre.reconciled.svg
 
 # Evaluate branch support with bootstrap
 
@@ -108,9 +108,7 @@ Load your tree into Evolview
 
 Upload the annotation file
 
-      
-
-      yourgenefamily.domains.pfam.evol.tsv
+      ABC.domains.pfam.evol.tsv
 
 
 
