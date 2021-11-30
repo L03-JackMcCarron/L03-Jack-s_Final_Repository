@@ -60,7 +60,7 @@ Look at the midpoint rooted treefile
 
 Use the following command to print out the tree with Notung support
 
-      nw_display -s  maguk.genes.ufboot.MendozaRoot.treefile -w 1000 -b 'opacity:0' >  maguk.genes.ufboot.MendozaRoot.treefile.svg
+      nw_display -s  ABC.genes.ufboot.MendozaRoot.treefile -w 1000 -b 'opacity:0' >  ABC.genes.ufboot.MendozaRoot.treefile.svg
 
 # Evaluate branch support with bootstrap
 
@@ -80,7 +80,7 @@ Set up a directory to help organize your output using the following command
       
 Run iprscan5
 
-      iprscan5   --email jack.mccarron@stonybrook.edu  --multifasta --useSeqId --sequence   ~/labs/lab5-L03-JackMcCarron/maguk.blastp.detail.filtered.fas
+      iprscan5   --email jack.mccarron@stonybrook.edu  --multifasta --useSeqId --sequence   ~/labs/lab5-L03-JackMcCarron/ABC.blastp.detail.filtered.fas
 
 Concatenate all files into a single file
 
@@ -88,7 +88,7 @@ Concatenate all files into a single file
 
 Use the following command to focus only on domains defined by the pfam database
 
-      grep Pfam ~/labs/lab8-myusername/maguk.domains.all.tsv >  ~/labs/lab8-myusername/maguk.domains.pfam.tsv
+      grep Pfam ~/labs/lab8-L03-JackMcCarron/ABC.domains.all.tsv >  ~/labs/lab8-L03-JackMcCarron/ABC.domains.pfam.tsv
 
 # Using Evolview to plot pfam domains
 
